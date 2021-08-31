@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>AVRL_project</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./controller.js"></script>
+    </head>
+    <body>
+        <div id= "visualizer-homer" style="width: 620px; height: 180px; background-color: black; margin-left: auto; margin-right: auto; margin-top: 5%; position: relative;">
+            <div class= "first-bar" id= "bar1" style="width: 120px; height: 160px; background-color: blueviolet; position: absolute; bottom: 10px ;  left: 10px"></div>
+            <div class = "second-bar" id = "bar2" style="width: 120px; height: 160px; background-color: rgb(224, 43, 149); position: absolute; left: 130px; bottom: 10px"></div>
+            <div class = "third-bar" id = "bar3" style="width: 120px; height: 160px; background-color: rgb(255, 50, 84); position: absolute; left: 250px; bottom: 10px"></div>
+            <div class = "fourth-bar" id = "bar4" style="width: 120px; height: 160px; background-color: rgb(240, 118, 61); position: absolute; left: 370px; bottom: 10px"></div>
+            <div class = "fifth-bar" id = "bar5" style="width: 120px; height: 160px; background-color: rgb(241, 189, 56); position: absolute; left: 490px; bottom: 10px"></div>
+        </div>
+
+        <div id = "control-panel" style="width: 620px;position: relative;margin-left: auto; margin-right: auto;top:40px">
+            <div id = "start-frame" style="float:left; position: relative; left:25%;"><button id = "start" onclick = "animStart()" style= "width: 100px; background-color: rgb(25, 219, 25);">Start</button></div>
+            <div id = "stop-frame" style="float:right; position: relative; right:25%;"><button id = "stop" onclick = "animStop()" style= "width: 100px; background-color: red; color: white; ">Stop</button></div>
+        </div>
+        
+    </body>
+</html>
